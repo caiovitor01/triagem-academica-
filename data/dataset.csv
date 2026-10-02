@@ -1,0 +1,136 @@
+id,texto,setor,urgencia
+1,Preciso da segunda via do boleto da mensalidade de outubro,Financeiro,media
+2,Fui cobrado duas vezes na mensalidade e preciso de estorno urgente,Financeiro,alta
+3,Como faço para negociar minhas parcelas em atraso,Financeiro,media
+4,Gostaria de saber como funciona o desconto para pagamento antecipado,Financeiro,baixa
+5,"O boleto venceu ontem e o sistema não deixa emitir outro, preciso pagar hoje",Financeiro,alta
+6,Meu FIES ainda não foi renovado e a cobrança continua chegando,Financeiro,alta
+7,Quero saber se tenho direito a bolsa de estudos,Financeiro,baixa
+8,Preciso de comprovante de pagamento das mensalidades para o imposto de renda,Financeiro,media
+9,Paguei a matrícula mas ainda consta como pendente no financeiro,Financeiro,media
+10,Qual o valor da taxa de rematrícula do próximo semestre,Financeiro,baixa
+11,"Meu nome foi negativado por uma mensalidade que já paguei, preciso resolver imediatamente",Financeiro,alta
+12,Dúvida sobre o prazo de reembolso de uma taxa paga por engano,Financeiro,media
+13,Como solicito o desconto de irmão na mensalidade,Financeiro,baixa
+14,Quero parcelar o débito da dependência em várias vezes,Financeiro,media
+15,Recebi uma cobrança de multa que não reconheço,Financeiro,media
+16,Preciso alterar o vencimento do meu boleto para o dia 15,Financeiro,baixa
+17,O desconto do ProUni não foi aplicado na parcela deste mês,Financeiro,media
+18,Quero o extrato financeiro de todo o curso,Financeiro,baixa
+19,"Não consigo pagar o boleto pelo aplicativo do banco, dá código inválido e vence amanhã",Financeiro,alta
+20,Solicito nota fiscal dos pagamentos realizados em 2026,Financeiro,baixa
+21,Fui cobrado de taxa de segunda chamada indevidamente,Financeiro,media
+22,"Gostaria de informações sobre formas de pagamento da mensalidade, cartão ou pix",Financeiro,baixa
+23,Pagamento via pix não foi compensado e minha matrícula pode ser cancelada hoje,Financeiro,alta
+24,O financiamento estudantil do banco ainda não foi repassado para a faculdade,Financeiro,media
+25,Como faço para obter isenção da taxa de emissão de diploma,Financeiro,baixa
+26,Tenho parcelas atrasadas e quero um acordo para regularizar,Financeiro,media
+27,"Houve erro no valor da minha mensalidade, veio acima do contratado",Financeiro,media
+28,Preciso do informe de rendimentos pagos à instituição,Financeiro,baixa
+29,"Boleto com juros abusivos, quero revisão imediata antes do vencimento de hoje",Financeiro,alta
+30,Posso pagar a mensalidade com cartão de crédito em até 12 vezes,Financeiro,baixa
+31,Meu contrato financeiro mostra bolsa de 30% mas estou pagando integral,Financeiro,media
+32,Desejo cancelar a cobrança automática no cartão,Financeiro,media
+33,Quando sai o boleto da próxima parcela,Financeiro,baixa
+34,"Houve débito em duplicidade na minha conta, preciso do dinheiro de volta ainda hoje",Financeiro,alta
+35,"Preciso regularizar pendência financeira para fazer a rematrícula, o prazo termina amanhã",Financeiro,alta
+36,Quais são os valores de mensalidade para o curso de ADS,Financeiro,baixa
+37,Quero saber o motivo de ter sido cobrada taxa de laboratório,Financeiro,media
+38,Como consultar meus débitos em aberto,Financeiro,baixa
+39,"Recebi um e-mail de cobrança mas já quitei tudo, pode verificar",Financeiro,media
+40,Solicito devolução do valor pago após trancamento do curso,Financeiro,media
+41,Preciso da declaração de quitação de débitos financeiros,Financeiro,media
+42,"Fui bloqueado no portal por inadimplência e tenho prova hoje, preciso liberar urgente",Financeiro,alta
+43,Quero trocar a forma de pagamento de boleto para débito,Financeiro,baixa
+44,O valor da minha parcela não bate com o que foi combinado no acordo,Financeiro,media
+45,Como pedir bolsa parcial por condição socioeconômica,Financeiro,baixa
+46,Preciso de uma declaração de vínculo para apresentar no estágio,Secretaria,media
+47,Como solicito meu histórico escolar,Secretaria,baixa
+48,Quero trancar a matrícula neste semestre,Secretaria,media
+49,"Preciso do diploma com urgência, tenho uma seleção que encerra amanhã",Secretaria,alta
+50,Qual o prazo para fazer a rematrícula,Secretaria,baixa
+51,Minha carteirinha de estudante não chegou,Secretaria,baixa
+52,Solicito a segunda via do certificado de conclusão,Secretaria,media
+53,"Quero transferir meu curso para outra instituição, preciso da guia de transferência",Secretaria,media
+54,"Erro no meu nome no cadastro do sistema, preciso corrigir antes da colação de grau",Secretaria,media
+55,Entreguei os documentos da matrícula mas constam como pendentes,Secretaria,media
+56,Preciso do atestado de matrícula hoje para o INSS,Secretaria,alta
+57,Quando será a colação de grau da turma,Secretaria,baixa
+58,Como faço para atualizar meus dados cadastrais,Secretaria,baixa
+59,"Minha matrícula foi cancelada por engano, preciso reverter imediatamente",Secretaria,alta
+60,Gostaria de saber onde retiro meu diploma,Secretaria,baixa
+61,Solicito declaração de conclusão de curso provisória,Secretaria,media
+62,Preciso de cópia dos documentos pessoais que entreguei na secretaria,Secretaria,baixa
+63,Quero cancelar definitivamente minha matrícula,Secretaria,media
+64,"O prazo de entrega do diploma já passou, quero saber o andamento",Secretaria,media
+65,Preciso do comprovante de matrícula para o passe de ônibus,Secretaria,baixa
+66,"Solicito alteração do turno de aula, de noite para manhã",Secretaria,media
+67,"Preciso de declaração de que sou aluno regular, o prazo do banco termina hoje",Secretaria,alta
+68,Como peço a reabertura de matrícula trancada,Secretaria,media
+69,Não recebi o e-mail de confirmação da matrícula,Secretaria,baixa
+70,Gostaria do calendário acadêmico do próximo semestre,Secretaria,baixa
+71,"O sistema não emite meu comprovante de matrícula, preciso entregar no trabalho amanhã",Secretaria,alta
+72,"Meu histórico está com informações erradas, preciso da correção",Secretaria,media
+73,Quero solicitar a segunda via da carteirinha perdida,Secretaria,baixa
+74,"Preciso de ajuda para fazer a matrícula online, o sistema não abre",Secretaria,media
+75,Solicito autenticação de cópias de documentos acadêmicos,Secretaria,baixa
+76,Como solicito o diploma digital,Secretaria,baixa
+77,"Fiz a solicitação de trancamento e não tive retorno, o prazo encerra hoje",Secretaria,alta
+78,Quero mudar meu endereço e telefone no cadastro,Secretaria,baixa
+79,Preciso do boletim de notas oficial com carimbo,Secretaria,baixa
+80,"Fui aprovado na transferência externa e preciso realizar a matrícula, qual o procedimento",Secretaria,media
+81,Quais documentos preciso levar para me matricular,Secretaria,baixa
+82,Preciso regularizar a documentação pendente antes que minha matrícula seja bloqueada amanhã,Secretaria,alta
+83,"Meu certificado de conclusão do ensino médio não foi aceito, o que faço",Secretaria,media
+84,Solicito retificação da data de nascimento no diploma,Secretaria,media
+85,Gostaria de saber o horário de atendimento da secretaria,Secretaria,baixa
+86,Quero reativar minha matrícula após afastamento,Secretaria,media
+87,Preciso de declaração para o plano de saúde comprovando que estudo,Secretaria,media
+88,Quero o histórico escolar com as cargas horárias de cada disciplina,Secretaria,baixa
+89,A colação de grau é amanhã e meu nome não está na lista,Secretaria,alta
+90,Como faço a transferência de turno ou de campus,Secretaria,baixa
+91,Gostaria de pedir revisão da nota da prova de banco de dados,Coordenação,media
+92,Quero solicitar aproveitamento de estudos de disciplinas cursadas em outra faculdade,Coordenação,media
+93,Preciso de um orientador para o TCC,Coordenação,media
+94,Como funciona a validação das horas complementares,Coordenação,baixa
+95,O professor não lançou minha nota e a matrícula da dependência fecha amanhã,Coordenação,alta
+96,Quero saber a grade curricular do curso,Coordenação,baixa
+97,Solicito segunda chamada da prova por motivo de saúde,Coordenação,media
+98,Tenho conflito de horário entre duas disciplinas e preciso de solução,Coordenação,media
+99,Preciso de ajuda para achar vaga de estágio obrigatório,Coordenação,baixa
+100,O professor de programação falta com frequência e prejudica a turma,Coordenação,media
+101,Defesa do TCC é amanhã e ainda não tenho a banca definida,Coordenação,alta
+102,Dúvida sobre pré-requisito da disciplina de estrutura de dados,Coordenação,baixa
+103,Quero cursar disciplina optativa de outro curso,Coordenação,baixa
+104,Preciso validar meu estágio para entregar o relatório final até hoje,Coordenação,alta
+105,Como faço para entrar como monitor de uma disciplina,Coordenação,baixa
+106,Reprovei por falta e acho que houve erro no lançamento de frequência,Coordenação,media
+107,Quero solicitar dispensa de disciplina por experiência profissional,Coordenação,media
+108,Preciso do plano de ensino da disciplina de engenharia de software,Coordenação,baixa
+109,"O trabalho de conclusão precisa de autorização do coordenador, prazo termina hoje",Coordenação,alta
+110,Quais disciplinas posso cursar em regime de dependência,Coordenação,baixa
+111,Solicito orientação sobre qual optativa escolher para meu perfil,Coordenação,baixa
+112,Quero reclamar do critério de avaliação do professor na disciplina de redes,Coordenação,media
+113,Preciso de carta de apresentação para o estágio assinada pelo coordenador,Coordenação,media
+114,Como solicitar projeto de extensão para computar horas,Coordenação,baixa
+115,O coordenador precisa assinar meu termo de estágio ainda hoje senão perco a vaga,Coordenação,alta
+116,Posso antecipar disciplinas para me formar mais cedo,Coordenação,baixa
+117,Preciso trocar de turma em uma disciplina que tem vaga,Coordenação,media
+118,"Erro na minha nota final do semestre, aprovado no sistema mas reprovado no diário",Coordenação,media
+119,"Quero participar de iniciação científica, como proceder",Coordenação,baixa
+120,"Prova substitutiva aplicada sem aviso, peço reavaliação imediatamente",Coordenação,alta
+121,"Meu TCC precisa trocar de tema, qual o procedimento",Coordenação,media
+122,Preciso que o coordenador avalie o pedido de aproveitamento antes do fechamento do semestre amanhã,Coordenação,alta
+123,Qual a carga horária total de estágio exigida no curso,Coordenação,baixa
+124,Gostaria de saber quais professores ofertam orientação de TCC,Coordenação,baixa
+125,Solicito revisão da nota do trabalho de graduação interdisciplinar,Coordenação,media
+126,"Quero mudar de curso dentro da instituição, como faz",Coordenação,media
+127,Tem previsão de oferta da disciplina de inteligência artificial,Coordenação,baixa
+128,O professor não aceita meu atestado médico para a segunda chamada,Coordenação,media
+129,Preciso do horário das aulas da turma e da lista de ementas,Coordenação,baixa
+130,"Dificuldade com o conteúdo de cálculo, existe monitoria ou reforço",Coordenação,baixa
+131,"Falta de professor na disciplina desde o início do semestre, precisa de providência urgente",Coordenação,alta
+132,Quero validar certificados de cursos online como horas complementares,Coordenação,media
+133,Conflito entre orientador e aluno no desenvolvimento do TCC,Coordenação,media
+134,Solicito ementas das disciplinas para pedido de aproveitamento,Coordenação,baixa
+135,Solicito reunião com o coordenador do curso para tratar da grade,Coordenação,baixa

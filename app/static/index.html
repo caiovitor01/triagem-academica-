@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chamados Acadêmicos — Triagem Híbrida</title>
+<style>
+  :root { --bg:#f4f6fa; --card:#fff; --tx:#1f2937; --mut:#6b7280; --pri:#1d4ed8; --bd:#e5e7eb;
+          --alta:#dc2626; --media:#d97706; --baixa:#059669; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--tx); }
+  header { background:var(--pri); color:#fff; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; }
+  header h1 { font-size:18px; margin:0; }
+  main { max-width:1100px; margin:20px auto; padding:0 14px; }
+  .card { background:var(--card); border:1px solid var(--bd); border-radius:10px; padding:16px; margin-bottom:16px; }
+  h2 { margin:0 0 12px; font-size:16px; }
+  label { display:block; font-size:13px; color:var(--mut); margin:10px 0 4px; }
+  input, textarea, select { width:100%; padding:9px 10px; border:1px solid #cbd5e1; border-radius:7px; font:inherit; }
+  textarea { min-height:90px; resize:vertical; }
+  button { background:var(--pri); color:#fff; border:0; padding:9px 16px; border-radius:7px; font:inherit; cursor:pointer; margin-top:12px; }
+  button.sec { background:#e5e7eb; color:var(--tx); } button.small { padding:5px 10px; margin:0; font-size:13px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; } @media(max-width:760px){ .grid{grid-template-columns:1fr;} }
+  .tag { display:inline-block; padding:2px 9px; border-radius:999px; font-size:12px; color:#fff; margin-right:4px; }
+  .alta{background:var(--alta)} .media{background:var(--media)} .baixa{background:var(--baixa)}
+  .setor{background:#475569} .status{background:#64748b} .rev{background:#7c3aed}
+  .item { border:1px solid var(--bd); border-radius:8px; padding:11px 13px; margin-bottom:9px; cursor:pointer; background:#fff; }
+  .item:hover { border-color:var(--pri); } .item h3 { margin:0 0 6px; font-size:15px; }
+  .mut { color:var(--mut); font-size:13px; } .msg { padding:8px 10px; border-radius:8px; margin:6px 0; background:#f1f5f9; font-size:14px; }
+  .msg.atendente { background:#dbeafe; } .erro { color:var(--alta); font-size:14px; margin-top:8px; }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; } .stat { flex:1; min-width:130px; background:#f8fafc; border:1px solid var(--bd); border-radius:8px; padding:10px; }
+  .stat b { font-size:20px; display:block; } .hidden { display:none; } .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .row select { width:auto; } .ok { background:#ecfdf5; border:1px solid #a7f3d0; padding:10px; border-radius:8px; margin-top:10px; font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎓 Chamados Acadêmicos — Triagem Híbrida</h1>
+  <div id="userbox" class="row hidden"><span id="quem"></span><button class="sec small" onclick="sair()">Sair</button></div>
+</header>
+<main>
+  <!-- LOGIN -->
+  <section id="telaLogin" class="grid">
+    <div class="card">
+      <h2>Entrar</h2>
+      <label>E-mail</label><input id="lEmail" type="email" value="aluno@unama.test">
+      <label>Senha</label><input id="lSenha" type="password" value="aluno123">
+      <button onclick="entrar()">Entrar</button>
+      <div id="lErro" class="erro"></div>
+      <p class="mut">Demo: aluno@unama.test / aluno123 · atendentes: financeiro@ | secretaria@ | coordenacao@ | supervisor@unama.test / atende123</p>
+    </div>
+    <div class="card">
+      <h2>Criar conta de aluno</h2>
+      <label>Nome</label><input id="rNome">
+      <label>E-mail</label><input id="rEmail" type="email">
+      <label>Senha (mín. 6)</label><input id="rSenha" type="password">
+      <button class="sec" onclick="registrar()">Cadastrar</button>
+      <div id="rErro" class="erro"></div>
+    </div>
+  </section>
+
+  <!-- ALUNO -->
+  <section id="telaAluno" class="hidden">
+    <div class="card">
+      <h2>Abrir novo chamado</h2>
+      <label>Assunto</label><input id="tTitulo" maxlength="150" placeholder="Ex.: Segunda via de boleto">
+      <label>Descreva seu problema</label><textarea id="tDesc" placeholder="Explique sua solicitação com detalhes..."></textarea>
+      <button onclick="criarTicket()">Enviar chamado</button>
+      <div id="tErro" class="erro"></div><div id="tOk"></div>
+    </div>
+    <div class="card"><h2>Meus chamados</h2><div id="listaAluno"></div></div>
+  </section>
+
+  <!-- ATENDENTE -->
+  <section id="telaAtendente" class="hidden">
+    <div class="card"><h2 id="tituloPainel">Painel</h2><div class="stats" id="stats"></div></div>
+    <div class="card">
+      <div class="row"><h2 style="margin:0">Fila de chamados</h2>
+        <select id="fStatus" onchange="carregarFila()"><option value="">Todos os status</option>
+          <option value="aberto">Aberto</option><option value="em_andamento">Em andamento</option><option value="resolvido">Resolvido</option></select>
+        <select id="fSetor" class="hidden" onchange="carregarFila()"><option value="">Todos os setores</option>
+          <option>Financeiro</option><option>Secretaria</option><option>Coordenação</option></select>
+      </div>
+      <div id="fila" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <!-- DETALHE -->
+  <section id="telaDetalhe" class="hidden"><div class="card" id="detalhe"></div></section>
+</main>
+
+<script>
+let token = sessionStorage.getItem("token"), usuario = JSON.parse(sessionStorage.getItem("usuario") || "null"), voltar = null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const NOMES = {aberto:"Aberto", em_andamento:"Em andamento", resolvido:"Resolvido", alta:"Urgência alta", media:"Urgência média", baixa:"Urgência baixa"};
+
+async function api(path, opts = {}) {
+  const r = await fetch(path, { ...opts, headers: { "Content-Type":"application/json", ...(token ? {Authorization:"Bearer "+token} : {}) },
+    body: opts.body ? JSON.stringify(opts.body) : undefined });
+  const dados = await r.json().catch(() => ({}));
+  if (r.status === 401 && token) { sair(); }
+  if (!r.ok) throw new Error(dados.erro || "Erro " + r.status);
+  return dados;
+}
+function mostrar(tela) { ["telaLogin","telaAluno","telaAtendente","telaDetalhe"].forEach(t => $(t).classList.toggle("hidden", t !== tela)); }
+function iniciarSessao(d) {
+  token = d.token; usuario = d.usuario;
+  sessionStorage.setItem("token", token); sessionStorage.setItem("usuario", JSON.stringify(usuario)); home();
+}
+async function entrar() {
+  $("lErro").textContent = "";
+  try { iniciarSessao(await api("/api/auth/login", {method:"POST", body:{email:$("lEmail").value, senha:$("lSenha").value}})); }
+  catch (e) { $("lErro").textContent = e.message; }
+}
+async function registrar() {
+  $("rErro").textContent = "";
+  try { iniciarSessao(await api("/api/auth/register", {method:"POST", body:{nome:$("rNome").value, email:$("rEmail").value, senha:$("rSenha").value}})); }
+  catch (e) { $("rErro").textContent = e.message; }
+}
+function sair() { token = null; usuario = null; sessionStorage.clear(); $("userbox").classList.add("hidden"); mostrar("telaLogin"); }
+function home() {
+  if (!usuario) return mostrar("telaLogin");
+  $("userbox").classList.remove("hidden");
+  $("quem").textContent = `${usuario.nome} (${usuario.papel}${usuario.setor ? " · " + usuario.setor : ""})`;
+  if (usuario.papel === "aluno") { mostrar("telaAluno"); carregarAluno(); voltar = carregarAluno; }
+  else { mostrar("telaAtendente"); $("fSetor").classList.toggle("hidden", usuario.setor !== "Todos");
+         $("tituloPainel").textContent = "Painel — " + (usuario.setor === "Todos" ? "todos os setores" : usuario.setor);
+         carregarStats(); carregarFila(); voltar = () => { carregarStats(); carregarFila(); }; }
+}
+function tags(t) {
+  return `<span class="tag ${t.urgencia}">${NOMES[t.urgencia]}</span><span class="tag setor">${esc(t.setor)}</span>` +
+         `<span class="tag status">${NOMES[t.status]}</span>` + (t.revisao_manual ? `<span class="tag rev">revisar triagem</span>` : "");
+}
+function itemHtml(t, mostrarAluno) {
+  return `<div class="item" onclick="abrir(${t.id})"><h3>#${t.id} · ${esc(t.titulo)}</h3>${tags(t)}
+    <div class="mut" style="margin-top:6px">${mostrarAluno ? esc(t.aluno) + " · " : ""}${new Date(t.criado_em).toLocaleString("pt-BR")}</div></div>`;
+}
+async function criarTicket() {
+  $("tErro").textContent = ""; $("tOk").innerHTML = "";
+  try {
+    const t = await api("/api/tickets", {method:"POST", body:{titulo:$("tTitulo").value, descricao:$("tDesc").value}});
+    $("tTitulo").value = ""; $("tDesc").value = "";
+    $("tOk").innerHTML = `<div class="ok">✅ Chamado #${t.id} direcionado automaticamente para <b>${esc(t.setor)}</b> (${NOMES[t.urgencia].toLowerCase()}) em ${t.tempo_triagem_ms} ms — método: ${t.metodo}.</div>`;
+    carregarAluno();
+  } catch (e) { $("tErro").textContent = e.message; }
+}
+async function carregarAluno() {
+  const l = await api("/api/tickets");
+  $("listaAluno").innerHTML = l.length ? l.map(t => itemHtml(t, false)).join("") : '<p class="mut">Nenhum chamado ainda.</p>';
+}
+async function carregarStats() {
+  const s = await api("/api/estatisticas"), c = (k, v) => `<div class="stat"><span class="mut">${k}</span><b>${v ?? 0}</b></div>`;
+  $("stats").innerHTML = c("Total", s.total) + c("Abertos", s.por_status.aberto) + c("Em andamento", s.por_status.em_andamento) +
+    c("Resolvidos", s.por_status.resolvido) + c("Urgência alta", s.por_urgencia.alta) +
+    c("Triagem média (ms)", s.tempo_medio_triagem_ms ?? "—") + c("Reencaminhados", s.reencaminhados);
+}
+async function carregarFila() {
+  const q = new URLSearchParams(); if ($("fStatus").value) q.set("status", $("fStatus").value);
+  if (usuario.setor === "Todos" && $("fSetor").value) q.set("setor", $("fSetor").value);
+  const l = await api("/api/tickets?" + q);
+  $("fila").innerHTML = l.length ? l.map(t => itemHtml(t, true)).join("") : '<p class="mut">Fila vazia.</p>';
+}
+async function abrir(id) {
+  const t = await api("/api/tickets/" + id), at = usuario.papel === "atendente";
+  $("detalhe").innerHTML = `<button class="sec small" onclick="fechar()">← Voltar</button>
+    <h2 style="margin-top:12px">#${t.id} · ${esc(t.titulo)}</h2>${tags(t)}
+    <p class="mut">Aberto por ${esc(t.aluno)} em ${new Date(t.criado_em).toLocaleString("pt-BR")} · triagem: ${t.metodo}${t.confianca != null ? " (confiança " + t.confianca + ")" : ""}, ${t.tempo_triagem_ms} ms</p>
+    <p style="white-space:pre-wrap">${esc(t.descricao)}</p>
+    ${at ? `<div class="row"><select id="nStatus">${["aberto","em_andamento","resolvido"].map(s => `<option value="${s}" ${s===t.status?"selected":""}>${NOMES[s]}</option>`).join("")}</select>
+      <button class="small" onclick="mudar(${t.id},'status',$('nStatus').value)">Atualizar status</button>
+      <select id="nSetor">${["Financeiro","Secretaria","Coordenação"].map(s => `<option ${s===t.setor?"selected":""}>${s}</option>`).join("")}</select>
+      <button class="sec small" onclick="mudar(${t.id},'setor',$('nSetor').value)">Reencaminhar setor</button></div>` : ""}
+    <h2 style="margin-top:16px">Conversa</h2>
+    ${t.respostas.map(r => `<div class="msg ${r.papel}"><b>${esc(r.autor)}</b> <span class="mut">${new Date(r.criado_em).toLocaleString("pt-BR")}</span><br>${esc(r.mensagem)}</div>`).join("") || '<p class="mut">Sem respostas ainda.</p>'}
+    <label>Nova mensagem</label><textarea id="nMsg"></textarea><button onclick="responder(${t.id})">Enviar</button><div id="dErro" class="erro"></div>`;
+  mostrar("telaDetalhe");
+}
+function fechar() { home(); }
+async function responder(id) {
+  try { await api(`/api/tickets/${id}/respostas`, {method:"POST", body:{mensagem:$("nMsg").value}}); abrir(id); }
+  catch (e) { $("dErro").textContent = e.message; }
+}
+async function mudar(id, campo, valor) {
+  try { await api("/api/tickets/" + id, {method:"PATCH", body:{[campo]: valor}}); abrir(id); }
+  catch (e) { $("dErro").textContent = e.message; }
+}
+home();
+</script>
+</body>
+</html>

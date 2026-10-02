@@ -1,0 +1,16 @@
+test_01_login_invalido (tests.test_api.ApiTest.test_01_login_invalido) ... ok
+test_02_rotas_exigem_token (tests.test_api.ApiTest.test_02_rotas_exigem_token) ... ok
+test_03_cadastro_e_duplicidade (tests.test_api.ApiTest.test_03_cadastro_e_duplicidade) ... ok
+test_04_fluxo_completo_triagem_e_painel (tests.test_api.ApiTest.test_04_fluxo_completo_triagem_e_painel) ... ok
+test_05_reencaminhamento (tests.test_api.ApiTest.test_05_reencaminhamento) ... ok
+test_06_perfis_e_isolamento (tests.test_api.ApiTest.test_06_perfis_e_isolamento) ... ok
+test_07_validacoes (tests.test_api.ApiTest.test_07_validacoes) ... ok
+test_08_frontend_e_health (tests.test_api.ApiTest.test_08_frontend_e_health) ... /usr/lib/python3.12/unittest/case.py:589: ResourceWarning: unclosed file <_io.BufferedReader name='/home/claude/triagem-academica/app/static/index.html'>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.829s
+
+OK

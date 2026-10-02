@@ -1,0 +1,797 @@
+Executando validação cruzada (5x5)...
+Medindo latência em processo...
+Executando teste de carga HTTP...
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:27] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:28] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+127.0.0.1 - - [30/Sep/2026 20:20:29] "POST /api/tickets HTTP/1.1" 201 -
+{
+  "dataset": {
+    "n": 135,
+    "setores": [
+      "Financeiro",
+      "Secretaria",
+      "Coordenação"
+    ]
+  },
+  "acuracia": {
+    "limpo": {
+      "regras": {
+        "media": 92.6,
+        "desvio": 4.1,
+        "global_agregada": 92.6
+      },
+      "ml": {
+        "media": 80.6,
+        "desvio": 6.8,
+        "global_agregada": 80.6
+      },
+      "hibrido": {
+        "media": 92.0,
+        "desvio": 4.8,
+        "global_agregada": 92.0
+      }
+    },
+    "ruido": {
+      "regras": {
+        "media": 76.7,
+        "desvio": 7.2,
+        "global_agregada": 76.7
+      },
+      "ml": {
+        "media": 76.7,
+        "desvio": 7.6,
+        "global_agregada": 76.7
+      },
+      "hibrido": {
+        "media": 86.1,
+        "desvio": 6.1,
+        "global_agregada": 86.1
+      }
+    }
+  },
+  "metricas_por_setor_hibrido": {
+    "limpo": {
+      "Financeiro": {
+        "precisao": 0.952,
+        "recall": 0.88,
+        "f1": 0.915,
+        "suporte": 225
+      },
+      "Secretaria": {
+        "precisao": 0.898,
+        "recall": 0.902,
+        "f1": 0.9,
+        "suporte": 225
+      },
+      "Coordenação": {
+        "precisao": 0.913,
+        "recall": 0.978,
+        "f1": 0.944,
+        "suporte": 225
+      }
+    },
+    "ruido": {
+      "Financeiro": {
+        "precisao": 0.913,
+        "recall": 0.836,
+        "f1": 0.872,
+        "suporte": 225
+      },
+      "Secretaria": {
+        "precisao": 0.81,
+        "recall": 0.831,
+        "f1": 0.82,
+        "suporte": 225
+      },
+      "Coordenação": {
+        "precisao": 0.866,
+        "recall": 0.916,
+        "f1": 0.89,
+        "suporte": 225
+      }
+    }
+  },
+  "cobertura_regras_no_hibrido": {
+    "limpo": 81.5,
+    "ruido": 67.1
+  },
+  "acuracia_urgencia_regras": {
+    "media": 74.1,
+    "desvio": 10.0
+  },
+  "matriz_confusao_hibrido_soma_5_repeticoes": {
+    "limpo": [
+      [
+        198,
+        19,
+        8,
+        0
+      ],
+      [
+        9,
+        203,
+        13,
+        0
+      ],
+      [
+        1,
+        4,
+        220,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "ruido": [
+      [
+        188,
+        27,
+        10,
+        0
+      ],
+      [
+        16,
+        187,
+        22,
+        0
+      ],
+      [
+        2,
+        17,
+        206,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "latencia_processo": {
+    "regras": {
+      "media_ms": 0.044,
+      "p95_ms": 0.059,
+      "n": 1350
+    },
+    "ml": {
+      "media_ms": 1.521,
+      "p95_ms": 2.178,
+      "n": 1350
+    },
+    "hibrido": {
+      "media_ms": 0.339,
+      "p95_ms": 1.661,
+      "n": 1350
+    }
+  },
+  "latencia_http": {
+    "1": {
+      "requisicoes": 100,
+      "sucesso": 100,
+      "media_ms": 3.6,
+      "p50_ms": 3.0,
+      "p95_ms": 5.0,
+      "req_por_s": 279.0
+    },
+    "10": {
+      "requisicoes": 200,
+      "sucesso": 200,
+      "media_ms": 29.2,
+      "p50_ms": 9.3,
+      "p95_ms": 118.8,
+      "req_por_s": 304.4
+    },
+    "50": {
+      "requisicoes": 300,
+      "sucesso": 300,
+      "media_ms": 133.6,
+      "p50_ms": 42.8,
+      "p95_ms": 570.8,
+      "req_por_s": 295.5
+    }
+  }
+}
